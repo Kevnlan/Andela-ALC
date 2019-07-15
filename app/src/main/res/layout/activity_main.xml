@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#D6DBDF"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8sp"
+        android:fontFamily="@font/aclonica"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="@string/welcome"
+        android:textSize="35sp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0sp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="170sp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="160sp"
+        android:background="@drawable/mybutton"
+        android:text="@string/about"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="170sp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="100sp"
+        android:background="@drawable/mybutton"
+        android:text="@string/profile"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

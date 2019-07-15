@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">ALC 4 Phase 1</string>
+    <string name="profile">My Profile</string>
+    <string name="about">About ALC</string>
+    <string name="welcome">Welcome to ALC 4.0</string>
+    <string name="track">Android</string>
+    <string name="country">Kenya</string>
+    <string name="mail">kevnlan11@gmail.com</string>
+    <string name="number">+254702191178</string>
+    <string name="kevnlan">kevnlan</string>
+    <string name="trackk">Track</string>
+    <string name="todo">TODO</string>
+    <string name="countryy">Country</string>
+    <string name="email">E-Mail</string>
+    <string name="phone">Phone Number</string>
+    <string name="social">Slack Username</string>
+    <string name="slack">Kevnlan</string>
+    <string name="name">Langat Kevin</string>
+</resources>
